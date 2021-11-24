@@ -6,6 +6,8 @@
 
 The 6th Version of the Dcey SMP Docs
 
+<div align="left">
+
 # Building
 
 This doc is built with Docusaurus. The docs files are under `./docs`. If you wish to use a live server in order to check, make sure you have Node, npm or yarn installed.
