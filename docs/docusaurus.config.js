@@ -63,10 +63,6 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/No767/Dcey-SMP-Docs-V6',
               },
