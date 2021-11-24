@@ -10,11 +10,13 @@ const config = {
   tagline: 'The Documentation for Dcey SMP',
   url: 'https://docs.dcey.net',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/Dcey-SMP-Logo.png',
   organizationName: 'No767', // Usually your GitHub org/user name.
   projectName: 'Dcey-SMP-Docs-V6', // Usually your repo name.
+  noIndex: true,
+
 
   presets: [
     [
