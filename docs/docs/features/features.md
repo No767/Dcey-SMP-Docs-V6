@@ -20,7 +20,6 @@ sidebar_position: 1
 - NPC Shops Intergration
 - Citizens 2 Intergration
 - DiscordSRV intergration
-- Dynmap intergration
 - Global Chat support (VentureChat)
 - Staff++ Discord Intergration
 - Custom Heads
@@ -32,3 +31,6 @@ sidebar_position: 1
 
 - More items in server shops
 - Towny Support?
+
+## Disabled Features
+- Dynmap intergration (Requires NGINX Reverse Proxy)
