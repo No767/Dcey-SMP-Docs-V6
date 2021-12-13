@@ -25,5 +25,5 @@ OS: Windows 10 Pro
 
 Additional Critical Processes:
 
-* Docker - Hosting for [Rin](https://github.com/No767/Rin)
-* NGINX or IIS - Dynmap Web Server
+* Docker - Hosting for [Rin](https://github.com/No767/Rin) and [Kumiko](https://github.com/No767/Kumiko)
+* NGINX - Dynmap Web Server 

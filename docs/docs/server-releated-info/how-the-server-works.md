@@ -21,10 +21,10 @@ This is where the most complex part comes in. There are 35+ plugins on the serve
 
 ### Web Server
 
-For the web server, I am using Mircosoft IIS. The reason why is for the dynmap plugin, which allows you to see the minecraft world like google maps. But the thing is, there is going to be 3 dynmap pages, because im adding the dynmap plugin to all 3 servers.
+For the web server, I am using Nginx. The main reason why I picked Nginx over Apache or IIS is that Nginx does support Windows, and I've gotten used to configuring Nginx web servers. Plus, it should run faster than Apache. It can be broken down into 2 main parts: the Dcey SMP Maps and the reverse proxies
 
-* The first part is the "hub". This is the site you see in order to access the dynmap pages. This is custom coded in HTML + CSS and is part of the main website. This also uses bootstrap in order to get it working. Also open source as well, and can be found [here](https://github.com/No767/Dcey-SMP-Hub)
-* The second part is the actual dynmap pages themselves. This is where you can use the dynmap and see what the world is like.
+- The Dcey SMP Maps will be just the Dynmap page, therefore there is no "hub" you have to access first. The Dcey SMP now only runs as 1 server, due to personal reasons, so it wouldn't make sense for users to click extra buttons in order to access something that doesn't need the hub. Running Nginx + PHP.
+- The Reverse Proxies handle the input for the status trackers (for both Dcey SMP and for Rin + Kumiko) and will turn something like `http://status.dcey.net:3001/status` to `http://status.dcey.net`. This should make it easier for users to just access the status tracker. Note when first loading it, it will attempt to redirect you to the dashboard. Just click on the button "Status Page" to get redirected to the status page.
 
 ### Jenkins CI
 
