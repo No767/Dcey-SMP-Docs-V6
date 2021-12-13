@@ -12,9 +12,9 @@ sidebar_position: 1
 
 **Minecraft Version Compatibility**:
 
-Java Edition: **1.8.x - 1.17.x**
+Java Edition: **1.8.x - 1.18.x**
 
-Bedrock Edition: **1.17.0 - 1.17.41**
+Bedrock Edition: **1.17.0 - 1.18.2**
 
 **Server Software**: Purpur 1.17.1
 
