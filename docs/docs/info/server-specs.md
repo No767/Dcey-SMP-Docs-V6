@@ -26,4 +26,4 @@ OS: Windows 10 Pro
 Additional Critical Processes:
 
 * Docker - Hosting for [Rin](https://github.com/No767/Rin) and [Kumiko](https://github.com/No767/Kumiko)
-* NGINX - Dynmap Web Server 
+* NGINX - Dynmap Web Server + Dcey SMP Status Tracker + Rin/Kumiko Status Tracker
