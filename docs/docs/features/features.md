@@ -26,11 +26,9 @@ sidebar_position: 1
 - Custom Armor Stands
 - Minepacks Support
 - AdvancedRegionMarket (ARM) support
+- Dynmap Intergration (Via MySQL + Nginx)
 
 ## Planned Features
 
 - More items in server shops
 - Towny Support?
-
-## Disabled Features
-- Dynmap intergration (Requires NGINX Reverse Proxy)

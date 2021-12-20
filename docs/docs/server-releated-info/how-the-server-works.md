@@ -11,9 +11,9 @@ There are multiple parts of the server that function together. Here's a explanat
 
 This is the Minecraft server you will be playing on. It's just a regular server, running Purpur instead
 
-### MySQL Database
+### MySQL Server
 
-The MySQL Database houses some of the information that the servers needs to run. Essentially this is another way to reduce storage, and to let the data be easily accessed by me that would normally be inaccessable or only through in-game commands. This also allows for one central database, where everything connects to it and makes it a lot more cleaner. MySQL is also known to be acid compliant, which means if a power outage happened while the servers, the data would still be intact.
+The MySQL Server houses some of the information that the servers needs to run. Essentially this is another way to reduce storage, and to let the data be easily accessed by me that would normally be inaccessable or only through in-game commands. This also allows for one central database, where everything connects to it and makes it a lot more cleaner. MySQL is also known to be acid compliant, which means if a power outage happened while the servers, the data would still be intact. I also do have a PostgreSQL Server running as well, and this is meant for Rin and Kumiko (2 Discord bots that also use the same machine for hosting). But most plugins only support MySQL, so PostgreSQL wasn't really an option here. 
 
 ### Plugins
 
@@ -21,10 +21,7 @@ This is where the most complex part comes in. There are 35+ plugins on the serve
 
 ### Web Server
 
-For the web server, I am using Mircosoft IIS. The reason why is for the dynmap plugin, which allows you to see the minecraft world like google maps. But the thing is, there is going to be 3 dynmap pages, because im adding the dynmap plugin to all 3 servers.
-
-* The first part is the "hub". This is the site you see in order to access the dynmap pages. This is custom coded in HTML + CSS and is part of the main website. This also uses bootstrap in order to get it working. Also open source as well, and can be found [here](https://github.com/No767/Dcey-SMP-Hub)
-* The second part is the actual dynmap pages themselves. This is where you can use the dynmap and see what the world is like.
+For Dynmap and the web server, I am using Nginx. Dynmap has been set up with the image files that dynmap serves being put into a MySQL server. This improves read/write performance, and also helps with image loading. Nginx is really just a reverse proxy layer now, and handles rerouting traffic to the correct ports. 
 
 ### Jenkins CI
 
