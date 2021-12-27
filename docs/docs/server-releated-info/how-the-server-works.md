@@ -38,5 +38,5 @@ Basically all this is a fancy and automated way to deploy the website without ha
 
 If you want a picture of how it all works:
 
-![](../assets/Deltaline-Infrastructure-V2.png)
+![](../assets/Deltaline-Infrastructure-V3.png)
 
