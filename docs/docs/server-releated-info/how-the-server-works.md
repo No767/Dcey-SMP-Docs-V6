@@ -36,3 +36,8 @@ The Jenkins CI automatically deploys new changes within the Dcey-SMP-Hub project
 5. start iis up again by cd to sys32/intersev and `appcmd start site`
 
 Basically all this is a fancy and automated way to deploy the website without having to manaully getting all the files and placing them in by hand.
+
+If you want a picture of how it all works:
+
+![](../assets/Deltaline-Infrastructure-V2.png)
+
