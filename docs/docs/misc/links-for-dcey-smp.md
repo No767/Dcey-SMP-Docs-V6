@@ -22,7 +22,7 @@ There are a lot of links to keep track of, so here's the list of all of them
 
 ### Status Tracker
 
-- [http://status.dcey.net](http://status.dcey.net)
+- [https://status.dcey.net](https://status.dcey.net)
 
 ## GitHub Links
 

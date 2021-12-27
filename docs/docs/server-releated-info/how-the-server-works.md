@@ -21,8 +21,7 @@ This is where the most complex part comes in. There are 35+ plugins on the serve
 
 ### Web Server
 
-For Dynmap and the web server, I am using Nginx. Dynmap has been set up with the image files that dynmap serves being put into a MySQL server. This improves read/write performance, and also helps with image loading. Nginx is really just a reverse proxy layer now, and handles rerouting traffic to the correct ports. 
-
+For Dynmap and the web server, I am using Nginx. Dynmap has been set up with the image files that dynmap serves being put into a MySQL server. This improves read/write performance, and also helps with image loading. Nginx is really just a reverse proxy layer now, and handles rerouting traffic to the correct ports. As of now, Nginx handles rewritting for the Dcey SMP Maps, Dcey SMP Status Tracker, and Rin/Kumiko Status Tracker. 
 ### Jenkins CI
 
 #### Note that the Jenkins CI will not be running anymore
