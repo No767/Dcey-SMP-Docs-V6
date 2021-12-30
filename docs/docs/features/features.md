@@ -27,6 +27,7 @@ sidebar_position: 1
 - Minepacks Support
 - AdvancedRegionMarket (ARM) support
 - Dynmap Intergration (Via MySQL + Nginx)
+- ImageOnMap Support
 
 ## Planned Features
 

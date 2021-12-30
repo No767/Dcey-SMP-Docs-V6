@@ -5,9 +5,11 @@ sidebar_position: 1
 
 # Noted Issues
 
-- Farms will not work due to how Airplane and all upstreams edit the code to patch expolits and bugs. in return, farms **WILL NOT WORK**. If this is the case, I'm switching to a Velocity based proxy with fabric server running Lithuim, Starlight, carpet, and more optimization mods
+- Most farms won't work as expected due to how Paper and all upstream projects adjust the code in favor of performance over playability
 
-### Solved Issues
+- Paper currently has an issue ([#7063](https://github.com/PaperMC/Paper/issues/7063)) that prevents me from upgrading the server to 1.18.1. As of writing this (12/29/2021), I'm still waiting on a proper fix for this. Spigot currently also has an issue when upgrading a world from 1.17.1 to 1.18.1. 
+
+## Solved Issues
 
 - [x] issue with bedrock clients having a hard time joining. this is the cause by paper and the patches again. Waterfall was constantly kicking bedrock players out due to overflow of packets. Solved by switching to FlameCord. Already fixed by Geyser
 - [x] atr plugin having a hard time with bedrock players. fixed in the lastest build

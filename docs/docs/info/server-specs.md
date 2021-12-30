@@ -11,7 +11,7 @@ RAM: 16GB DDR3 SDRAM
 
 Server RAM allocation:
 
-* SMP Economy: 8GB
+* SMP Economy: 6GB
 
 Chunks Pre-Gen Radius:
 
@@ -26,4 +26,5 @@ OS: Windows 10 Pro
 Additional Critical Processes:
 
 * Docker - Hosting for [Rin](https://github.com/No767/Rin)
-* NGINX or IIS - Dynmap Web Server + Reverse Proxy
+* NGINX - Dynmap Web Server + Reverse Proxy
+* PostgreSQL - Data Storage for Rin and Kumiko

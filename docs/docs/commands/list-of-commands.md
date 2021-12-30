@@ -75,6 +75,7 @@ sidebar_position: 1
 | /home    | `Warp back to your home`                 |
 | /sethome | `Set your home`                          |
 | /delhome | `Delete your home`                       |
+| /back    | `Warp back to the last location`         |
 
 ### Rules related Cmds
 
@@ -94,5 +95,3 @@ sidebar_position: 1
 | -------- | -------------------------------------------------------------------------------------------- |
 | /tps     | `Ticks per second profiler using spark's profiler. basically this is a way to check for lag` |
 | /ping    | `Ping of the client`                                                                         |
-| /pl      | `Short for /plugins`                                                                         |
-| /plugins | `List of plugins that the servers have`                                                      |
