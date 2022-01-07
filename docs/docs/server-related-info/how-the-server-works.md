@@ -15,6 +15,10 @@ This is the Minecraft server you will be playing on. It's just a regular server,
 
 The MySQL Server houses some of the information that the servers needs to run. Essentially this is another way to reduce storage, and to let the data be easily accessed by me that would normally be inaccessable or only through in-game commands. This also allows for one central database, where everything connects to it and makes it a lot more cleaner. MySQL is also known to be acid compliant, which means if a power outage happened while the servers, the data would still be intact. I also do have a PostgreSQL Server running as well, and this is meant for Rin and Kumiko (2 Discord bots that also use the same machine for hosting). But most plugins only support MySQL, so PostgreSQL wasn't really an option here. 
 
+### PostgreSQL Server
+
+The PostgreSQL server is used by both Rin and Kumiko to store data. As of now, Dynmap is having issues with MySQL and MariaDB, so for the time being, I'll be switching the DB storage for Dynmap to PostgreSQL. PostgreSQL is just as fast if not faster than MySQL, so there should be some performance benfits as well.
+
 ### Plugins
 
 This is where the most complex part comes in. There are 35+ plugins on the server, and they contain a lot of the basic framework of the server. Luckperms as the perms manager, Geyser for bedrock support, etc. Every plugin has a purpose; whether it's a lib, API, or something else. Configuring these plugins often takes hours of work to do, since there is so much to keep track of and so much that needs to be changed. And often stacktraces and error logs pop up everywhere.
