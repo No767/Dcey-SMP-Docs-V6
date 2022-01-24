@@ -16,7 +16,7 @@ Java Edition: **1.8.x - 1.18.x**
 
 Bedrock Edition: **1.17.0 - 1.18.2**
 
-**Server Software**: Purpur 1.17.1
+**Server Software**: Purpur 1.18.1
 
 **Java Version**: Eclipse Temurin JDK 17
 
