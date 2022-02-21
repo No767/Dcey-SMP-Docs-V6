@@ -47,3 +47,4 @@ Critical Processes:
 
 - Docker - Hosting for [Rin](https://github.com/No767/Rin) and [Kumiko](https://github.com/No767/Kumiko) + Status Trackers
 - NGINX - Reverse Proxy
+- PostgreSQL - Data Storage for Rin and Kumiko
